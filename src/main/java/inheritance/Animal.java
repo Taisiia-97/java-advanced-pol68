@@ -1,7 +1,11 @@
 package inheritance;
 
+import java.time.LocalDate;
+
 abstract public class Animal {
     String[] foods;
+
+
     //metody abstrakcyjne
     public abstract void eat(double energy);
     public abstract void sleep(long time);
